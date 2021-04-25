@@ -1,0 +1,42 @@
+.context-selector {
+  display: flex;
+  justify-content: center;
+}
+
+.search-label {
+  margin: 5px 10px;
+}
+
+.context-selector .search-bar {
+  width: 400px;
+  padding: 5px;
+}
+.inout-container {
+  position: relative;
+}
+
+.context-selector .list-box {
+  background-color: white;
+  position: absolute;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  display: none;
+  width: 400px;
+  top: 30px;
+}
+
+.context-selector .search-bar.isFocus + .list-box {
+  display: block;
+}
+
+.context-selector .list-box .items {
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+}
+
+.context-selector .list-box .items:hover {
+  background-color: lightgray;
+}

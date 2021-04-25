@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "context-1",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    },
+    {
+      "id": 2,
+      "name": "context-2",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    },
+    {
+      "id": 3,
+      "name": "context-3",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    },
+    {
+      "id": 4,
+      "name": "context-4",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    },
+    {
+      "id": 5,
+      "name": "context-5",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    },
+    {
+      "id": 6,
+      "name": "context-6",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    },
+    {
+      "id": 7,
+      "name": "context-7",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    },
+    {
+      "id": 8,
+      "name": "context-8",
+      "value": 1000,
+      "isKey": true,
+      "isMandatory": true,
+      "isRecommended": false
+    }
+  ]
+}
