@@ -72,13 +72,13 @@ const ContextTable: React.FC<IProps> = ({
               <td colSpan={6} >
                 <button
                   className="btn btn-outline-danger"
-                  disabled={contexts.length ==0}
+                  disabled={contexts.length === 0}
                   onClick={() => console.log('hi')}
                 >
                   Save
                 </button>
                 <button
-                  disabled={contexts.length ==0}
+                  disabled={contexts.length === 0}
                   className="btn btn-outline-danger"
                   onClick={onCancel}
                 >
